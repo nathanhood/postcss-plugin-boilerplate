@@ -1,6 +1,8 @@
+const expect = require('chai').expect;
 const postcss = require('postcss');
+const plugin = require('./');
 
-function process(input, expected, opts = { }, warnings = 0) {
+function process(input, expected, opts = {}, warnings = 0) {
 	return postcss([ plugin(opts) ]).process(input)
 		.then(result => {
 			expect(result.css).to.equal(expected);
