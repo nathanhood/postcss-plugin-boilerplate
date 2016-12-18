@@ -2,3 +2,4 @@ node_modules/
 .idea/
 README.md
 tests.js
+.travis.yml
