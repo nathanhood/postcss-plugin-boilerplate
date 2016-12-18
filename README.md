@@ -10,12 +10,12 @@
 [PostCSS]: (https://github.com/postcss/postcss)
 
 ```css
+/* before */
 .foo {
     /* Input example */
 }
-```
 
-```css
+/* after */
 .foo {
   /* Output example */
 }
