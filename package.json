@@ -13,11 +13,7 @@
   },
   "keywords": [
     "postcss",
-    "postcss-plugin",
-    "media",
-    "queries",
-    "variable",
-    "custom"
+    "postcss-plugin"
   ],
   "author": "Nathan Hood",
   "license": "MIT",
